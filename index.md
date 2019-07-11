@@ -1,6 +1,3 @@
-##  Special Collection of funny and cute cat post's for . 
-
-https://www.instagram.com/p/BmEcVhKnh9_/
 
 You can use the [editor on GitHub](https://github.com/abhatt95/abhatt95.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
