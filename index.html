@@ -13,9 +13,18 @@
 <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
-  <p>Hi! My name is Abhishek Bhatt.</p>
 
+  <p>Hello, This is Abhishek Bhatt. Welcome to my corner of internet, below are some interesting projects that i am/was working on. I enjoy working on meaningful and interesting problems that generate wealth. Feel free to get in touch with me by emailing at abhipbhatt [@] gmail [.] com </p>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Baking')">Deep learning</button>
+        <button class="tablinks" onclick="openCity(event, 'ML')" id="defaultOpen" >Applied ML & DS</button>
+        <button class="tablinks" onclick="openCity(event, 'DS')">Web</button>
+        <button class="tablinks" onclick="openCity(event, 'cs')">AR/VR</button>
+          <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
+      </div>
+
+  <!--
   <p>I like to identify challenging problems, brain storm ideas to solve them and build solutions. I enjoy creating userfriendly products to imporove life. Over the years i have developed a deeper level of understanding of Applied Machine Learning and Data Science concepts.</p>
 
     <p> My current old school <a href="https://drive.google.com/file/d/1ctw2IG-Yz7bGlvT2JJefDBnbT36VObaC/view?usp=sharing" target="_blank">resume</a>. Feel free to reach out on - abhipbhatt [@] gmail [.] com if you are looking to expand your team (Currenlty looking for opportunities in fast paced organization), for us collobrate on projects, or for coffee and conversation.</p>
@@ -23,41 +32,47 @@
   <p>I like to run regularly and periodically write stories on medium <a href="https://medium.com/@abhipbhatt" target="_blank">@abhipbhatt</a></p>
 
     <p>Linkedin <a href="https://www.linkedin.com/in/abhatt95/" target="_blank">@abhatt95</a>, Github <a href="https://www.github.com/abhatt95/" target="_blank">@abhatt95</a></p>
+-->
 
-  <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'ML')" id="defaultOpen" >Machine Learning</button>
-  <button class="tablinks" onclick="openCity(event, 'DS')">Data Science</button>
-  <button class="tablinks" onclick="openCity(event, 'cs')">Cool stuff</button>
-  <button class="tablinks" onclick="openCity(event, 'Baking')">Baking</button>
-    <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
-</div>
 
 <div id="ML" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h2>Projects</h2>
   <div class="project">
-  <h3>Avito On Demand Prediction Challenge</h3>
-  <p>The online advertisement industry is filled with a variety of inaffective content. While some are too vague, others are not aesthetically pleasing or some might just not have enough demand in the market.  The project aims at predicting the probability of sale of online ad based on a variety of features.</p>
-  <p><a class = "c-r-tag" href="https://github.com/abhatt95/Avito-On-Demand-Prediction-challenge" target="_blank">github</a>
-<a class = "c-r-tag" href="https://github.com/abhatt95/Avito-On-Demand-Prediction-challenge/blob/master/INF552_Project_Avito_final.pdf" target="_blank">report</a>
-  </p>
-  <p>python, sklearn, bayes regression, xgboost, EDA</p>
+      <h3>Avito On Demand Prediction Challenge</h3>
+      <p>The online advertisement industry is filled with a variety of inaffective content. While some are too vague, others are not aesthetically pleasing or some might just not have enough demand in the market.  The project aims at predicting the probability of sale of online ad based on a variety of features.</p>
+        <p>
+          <a class = "c-r-tag" href="https://github.com/abhatt95/Avito-On-Demand-Prediction-challenge" target="_blank">github</a>
+          <a class = "c-r-tag" href="https://github.com/abhatt95/Avito-On-Demand-Prediction-challenge/blob/master/INF552_Project_Avito_final.pdf" target="_blank">report</a>
+        </p>
+      <p>python, sklearn, bayes regression, xgboost, EDA</p>
   </div>
+  <h2>Blogs</h2>
+    <p>
+      1. <a href="https://medium.com/@abhipbhatt/laymans-guide-to-a-b-testing-vocabulary-21015326c51c" target="_blank">Laymans guide to A/B testing vocabulary.</a><br>
+      2. <a href="https://medium.com/@abhipbhatt/dating-science-a-story-of-modern-day-expectations-a551af202db6" target="_blank">Dating Science, a story of modern-day expectations.</a><br>
+      3. <a href="https://medium.com/@abhipbhatt/data-analysis-with-sql-and-bigquery-on-new-york-city-bikes-data-7f2339525ed2" target="_blank">Data analysis with SQL in BigQuery on New york city bikes data.</a>
+    </p>
 </div>
 
 <div id="DS" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
 
-    <div class="project">
-  <h3>Car search</h3>
-  <p>A car search web application using NoSQL - Firebase and google cloud platform was created.Cars are diverse, they have variety of features depending on the make, model and year of manufacturing making them a perfect use case for NoSQL database which provide flexibility and ease of design change. </p>
-  <p><a class = "c-r-tag" href="https://github.com/abhatt95/Car-Inventory" target="_blank">github</a>
-  </p>
-  <p>NoSQL, RestAPI, Javascript, Google cloud</p>
+ <div class="project">
+    <h3>Vibe wave (Post cards)</h3>
+    <p>Add post throught the day, but they are shared together the next day. Thus keeping distraction low, giving back valuable attention and keeping friends and family connected. </p>
+    <p><a class = "c-r-tag" href="https://www.vibewave.app/" target="_blank">vibewave.app</a>
+    </p>
+    <p>Vuejs, Firebase, google storage, Javascript, Google cloud, AWS (EC2), cron, python</p>
   </div>
+  <div class="project">
+      <h3>Car search</h3>
+      <p>A car search web application using NoSQL - Firebase and google cloud platform was created.Cars are diverse, they have variety of features depending on the make, model and year of manufacturing making them a perfect use case for NoSQL database which provide flexibility and ease of design change. </p>
+      <p><a class = "c-r-tag" href="https://github.com/abhatt95/Car-Inventory" target="_blank">github</a>
+      </p>
+      <p>NoSQL, RestAPI, Javascript, Google cloud</p>
+    </div>
 </div>
 
 <div id="cs" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
     <div class="project">
   <h3>Rube Goldberg in VR & AR</h3>
   <p>RuGo is the ultimate geek-out destination to build and test unnecessarily complicated yet fun physics machines,
@@ -72,20 +87,18 @@ A virtual space to create, visualize, and share Rube Goldberg machines. Unlike t
   </div>
 </div>
 
-
 <div id="Baking" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Chocolate chip penut butter cookies.</h3>
-  <img src="IMG_0844.jpg" alt="Italian Trulli">
+  <!-- <h3>Chocolate chip penut butter cookies.</h3>
+  <img src="IMG_0844.jpg" alt="Italian Trulli"> -->
 </div>
 
 <div id="Education" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
   <h3>University of Southern California</h3>
-  <h4>Masters in Data Informatics</h4>
+  <h4>Masters in Data Informatics, Fall '19</h4>
   <p>Analysis of Algortihms, Data Management, Applied Machine Learning, Data Mining, Security Systems, AR VR and MXR</p>
   <h3>University of Mumbai</h3>
-  <h4>Bachelors of Engineering - Computer Engineering</h4>
+  <h4>Bachelors of Engineering - Computer Engineering, Spring '17</h4>
+  <p>Operating Systems, Distributed Database, Theory of Computer Science, Soft Computing, Computer Networks</p>
 </div>
 
 <script>
@@ -102,16 +115,7 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
-  <!--
-  <p>I currently work on building and scaling <a href="https://dynasty.com/">LISA</a>, a conversational real estate leasing AI, independently from 2017 and with the help of <a href="https://www.appfolio.com/blog/2019/01/appfolio-acquires-advanced-artificial-intelligence-technology-provider-to-expand-service-offerings/">AppFolio</a> since January 2019. I spend my time at the intersection of ML and product, trying to integrate them seamlessly.</p>
-  <p>Previously, I researched and implemented equity trading strategies at <a href="https://www.twosigma.com/">Two Sigma Investments</a> between 2012 and 2017 after completing my bachelor's degree in mathematics at the University of Waterloo.</p>
-  <p>My hobbies come and go. Currently I <a href="https://www.instagram.com/davidma/">photograph</a>, ski, enjoy cooking (and eating), and follow the cryptocurrency space. In the past I've enjoyed <a href="https://www.gokgs.com/gameArchives.jsp?user=sage1412&oldAccounts=t">go (weiqi)</a>, chess/bughouse, fencing, badminton, table tennis, rock climbing, classical piano, typography, SSBM, and probably a few other things.</p>
--->
-
-<!--With a Masters in Data Informatics from University of Southern California i have a well rounded understanding of Applied Machine learning, Data mining, Data visualization and security systems. A Bachelors in Computer Engineering from Mumbai University i have a well rounded understanding of Algorithms, Data Structures and other Computer science concepts of netorwking.-->
 </body>
 </html>
